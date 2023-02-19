@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+   
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+    
+    body{
+      font-family: 'Outfit', sans-serif;
+      font-size: 18px;
+      background-color: hsl(217, 54%, 11%);
+    }
+    .container{
+      background-color: hsl(216, 50%, 16%);
+      width: 320px;
+      height: 520px;
+      margin:auto;
+      position: relative;
+      top: 80px;
+      border-radius: 25px;
+      
+    }
+    img{
+      width: 255px;
+      height: 255px;
+      border-radius: 10px;
+      position: relative;
+      left: 30px;
+      top: 20px;
+    }
+    svg{
+      position: relative;
+      top: 15px;
+      left: 13px;
+    }
+    .clock{
+      position: relative;
+      top: -76px;
+      left: 185px;
+    }
+  
+    
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <img src="./images/image-equilibrium.jpg" alt="PicOfNft">
+
+    <h3 style="color: white; position: relative; top: 20px; left: 20px" class="crChange">Equilibrium #3429</h3>
+
+    <p style="position: relative; top: 10px; left: 15px; color: hsl(215, 51%, 70%); font-weight: lighter;">
+      Our Equilibrium collection promotes balance and calm</p>
+      
+    <svg width="11" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z" fill="#00FFF8"/></svg>
+    <p style="color: hsl(178, 100%, 50%); position: relative; left: 35px; top: -25px; font-size: 16px;"> 0.041 ETH </p>
+    
+    <div class="clock">
+    <svg width="17" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z" fill="#8BACD9"/></svg>
+    <p style="color: #8BACD9; position: relative; top: -23px; left: 38px; font-size: 15px;">3 days left</p>
+    </div>
+
+    <hr style="position: relative; top: -90px; width: 270px; color: grey; ">
+    
+    
+    <img src="./images/image-avatar.png" alt="avatar" style="width: 35px; height: 35px; over; position: relative; left: 30px; top: -85px;  border-radius: 50%; border: 2px solid white;" >
+     
+    <div style="position: relative; left: -5px;">
+    <p style="color: hsl(215, 51%, 70%); position: relative; top: -137px; left: 85px; font-weight: lighter; font-size: 15px;"> Creation of </p>
+    <p style="color: white; position: relative; top: -171px; left: 165px; font-size: 15px; font-weight: lighter;" class="crChange">Jules Wyvern</p>
+    </div>
+  </div>
+
+  <!--Equilibrium #3429
+
+  Our Equilibrium collection promotes balance and calm.
+
+  0.041 ETH
+  3 days left
+  
+  Creation of Jules Wyvern-->
+
+  <div class="attribution" style="position: relative; top: 100px;">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#"">Atharv Adhyapak</a>.
+  </div>
+
+
+
+</body>
+</html>
